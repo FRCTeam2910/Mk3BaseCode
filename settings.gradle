@@ -1,0 +1,12 @@
+pluginManagement {
+    plugins {
+        id "com.github.johnrengelman.shadow" version "5.2.0"
+        id "edu.wpi.first.GradleRIO" version "2020.2.2"
+        id 'net.ltgt.errorprone' version '1.1.1'
+    }
+}
+
+rootProject.name = "SwerveDriveMk3"
+
+include ":common"
+include ":common:robot"
